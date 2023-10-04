@@ -96,7 +96,7 @@ intro_2='''It was said that whoever could decipher the ancient riddles and navig
 theStory(intro_2)
 intro_3='You are a brave adventurer who has heard the tales and accepted the challenge.\n'
 print('''
-           .I.
+           
                             / : \
                             |===|
                             >._.<
@@ -160,8 +160,8 @@ print('''
            A             
           /.\       
      <|  [""M#      
-      A   | #              Avendar: The Crucible of Legends
-     /.\ [""M#             [avendar.com 9999]
+      A   | #              
+     /.\ [""M#             
     [""M# | #  U"U#U                 
      | #  | #  \ .:/    
      | #  | #___| #     
