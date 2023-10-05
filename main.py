@@ -1,4 +1,10 @@
 import time
+import threading
+from playsound import playsound
+def bgMusic():
+  playsound('bg_m.ogg')
+music_thread = threading.Thread(target=bgMusic)
+music_thread.start()
 print('''
                                  ____                                         
                               .-"    `-.      ,                               
@@ -213,5 +219,4 @@ elif choice == '2':
       elif choice == '2':
         theStory('You leave the cavern and return to the forest.\n')
       else:
-        theStory('Invalid Choice.')
-      
+        theStory('Invalid Choice.')      
