@@ -195,3 +195,23 @@ elif choice == '2':
     theStory('With a brave heart, you enter the dark cave.\n')
     theStory('The air is damp, and the walls seem to close in around you.\n')
     theStory('Torch in hand, you venture deeper into the caves eerie depths.')
+    theStory('What will you do?\n')
+    theStory('1. Go further into the cave\n')
+    theStory('2. Decide to retreat and return to the forest\n')
+    choice = input()
+    if choice == '1':
+      theStory('You brave the caves darkness and continue deeper.\n')
+      theStory('You emerge into a cavern bathed in an eerie blue light\n')
+      theStory('In the center of the cavern, you find a chest with mystical symbols.\n')
+      theStory('What will you do?\n')
+      theStory('1. Approach the chest cautiously\n')
+      theStory('2. Leave the cavern and head back to forest\n')
+      choice = input()
+      if choice == '1':
+        theStory('The chest contains the Lost Legacy treasure!\n')
+        theStory('Congratulations! You have found the Lost Legacy!\n')
+      elif choice == '2':
+        theStory('You leave the cavern and return to the forest.\n')
+      else:
+        theStory('Invalid Choice.')
+      
